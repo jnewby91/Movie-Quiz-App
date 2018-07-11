@@ -1,0 +1,99 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px auto;
+}
+
+body{
+    max-width: 960px;
+    height: 300px;
+}
+header{
+    background-color: maroon;
+    color: white;
+    height: 20%;
+    padding: 5px;
+    border-bottom: 2px grey solid;
+}
+.page {
+    text-align: center;
+}
+button#start {
+    text-align: center;
+    margin-top: 20px;
+    /* margin: 50px 436px; */
+}
+
+
+.questionNumber{
+    box-sizing: border-box;
+    float: left;
+    margin: 10px auto; 
+}
+.testQuestion{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* border: 1px solid blue; */
+    width: 100%;
+    text-align: justify;
+    margin: 0px auto;
+    font-size: 17px;
+}
+.score{
+    float: right;
+    box-sizing: border-box;
+}
+submit {
+    text-align: center;
+    margin: 10px auto;   
+    padding: 40px;
+}
+.scoreNumber{
+    text-align: center;
+    margin: 0px auto;
+}
+fieldset{
+  border:none; 
+}
+img {
+    max-width: 100%;
+    margin: 0px auto;
+}
+h1{
+  text-align: center;
+  margin: 5px; 
+  font-family: 'Galada', cursive;
+}
+h3{
+  font-weight: normal;
+  text-align: center;
+}
+p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+label{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 50px;
+  font-size: 16px;
+  text-align: justify;
+}
+
+button{
+  display: block;
+  width: 172px;
+  height: 45px;
+  text-align: center;
+}
+
+
+@media only screen and(min-width: 640px ){
+  .testQuestion { font-size: 15px;
+  
+  
+  }
+  
+
+}
